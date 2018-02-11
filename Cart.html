@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Food Cart </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/cart.css" >
+</head>
+
+<!--   ================= Header =================  -->
+<body>
+<nav class="navigation">
+<div class="container">
+<div class="row">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">Cart</a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<div class="nav navbar-nav main-nav  clear navbar-right ">
+<a class="btn btn-link btn-lg" href="Menutable.html"><span class="glyphicon glyphicon-home"></span></a>
+</div>
+</div>
+</div>
+</div>
+</nav><br/><br/>
+
+<!--  =================== Food List ==================  -->
+
+<div class="container">
+<ul id="item_list">
+
+</ul>
+</div>
+<div class="right"><button type='submit' onclick='checkout();'>Confirm</button></div>
+
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCiFwvLrfc4UU86hzpQ31EAOPm0AQQsFqg",
+    authDomain: "fir-adru.firebaseapp.com",
+    databaseURL: "https://fir-adru.firebaseio.com",
+    projectId: "fir-adru",
+    storageBucket: "fir-adru.appspot.com",
+    messagingSenderId: "408294355170"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/menutable.js"></script>
+</body>
+</html>

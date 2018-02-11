@@ -1,0 +1,16 @@
+.btn-default {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	display: block;
+	position: absolute;
+	margin-right: auto;
+	right: 100px;
+}
+
+dd {
+	display: block;
+    margin-left: 140px;
+}
